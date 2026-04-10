@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "vcpm"
-version = "0.1.0-1"
+version = "0.1.0-3"
 source = {
    url = "git+https://github.com/TraumDE/vcpm-lua.git"
 }
