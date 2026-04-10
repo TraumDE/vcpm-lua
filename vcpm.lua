@@ -6,6 +6,9 @@ package.path = "./lua_modules/lib/lua/" .. lua_version .. "/?.so;" .. package.pa
 
 local argparse = require "argparse"
 
-local parser = argparse("vcpm", "VCPM - Voxel core project manager")
+local parser = argparse("vcpm", "VCPM - Voxel core project manager", "For more info, see https://github.com/TraumDE/vcpm-lua")
+
+local build = parser:command("build b", "Build project")
+build:option("-d --dev", "Build in dev mode"):args(0)
 
 local args = parser:parse()
