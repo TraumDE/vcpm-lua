@@ -14,8 +14,8 @@ VCPM - is packet and project manager for voxel core game engine.
 }
 dependencies = {
    "lua >= 5.4, < 5.5",
-   "argparse"
-   "luastatic"
+   "argparse",
+   "luax",
 }
 build_dependencies = {
 }
