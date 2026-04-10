@@ -17,8 +17,11 @@ How to start development
 # clone repo
 git clone https://github.com/TraumDE/vcpm-lua.git
 
-## cd to repo
+# cd to repo
 cd vcpm-lua
+
+# init luarocks
+luarocks --lua-version 5.4 init
 
 # install dependencies
 luarocks --lua-version 5.4 make --tree=lua_modules
