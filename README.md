@@ -21,7 +21,7 @@ git clone https://github.com/TraumDE/vcpm-lua.git
 cd vcpm-lua
 
 # init luarocks
-luarocks --lua-version 5.4 init
+luarocks --local --lua-version 5.4 init
 
 # install dependencies
 luarocks --lua-version 5.4 make --tree=lua_modules
