@@ -20,7 +20,11 @@ build_dependencies = {
 }
 build = {
    type = "builtin",
-   modules = {}
+   install = {
+      bin = {
+         vcpm = "vcpm.lua"
+      }
+   }
 }
 test_dependencies = {
 }
