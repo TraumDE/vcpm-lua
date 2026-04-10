@@ -25,4 +25,7 @@ luarocks --lua-version 5.4 init
 
 # install dependencies
 luarocks --lua-version 5.4 make --tree=lua_modules
+
+# launch
+lua vcpm.lua <args>
 ```
